@@ -1,10 +1,10 @@
 services:
   frontend:
-    build: ../example-app/frontend
+    image: sudz/example-frontend 
     ports:
       - "5001:5001"
   backend:
-    build: ../example-app/backend
+    image: sudz/example-backend
     ports:
       - "8080:8080"
   
